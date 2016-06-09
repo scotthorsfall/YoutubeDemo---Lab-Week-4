@@ -14,6 +14,10 @@
 		504FFCC81D07507300C58A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504FFCC61D07507300C58A90 /* LaunchScreen.storyboard */; };
 		504FFCD31D07507300C58A90 /* YoutubeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFCD21D07507300C58A90 /* YoutubeDemoTests.swift */; };
 		504FFCDE1D07507300C58A90 /* YoutubeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFCDD1D07507300C58A90 /* YoutubeDemoUITests.swift */; };
+		504FFCEC1D07528D00C58A90 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFCEB1D07528D00C58A90 /* MenuViewController.swift */; };
+		504FFCEE1D0752BA00C58A90 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFCED1D0752BA00C58A90 /* FeedViewController.swift */; };
+		504FFCF01D0752C400C58A90 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504FFCEF1D0752C400C58A90 /* HamburgerViewController.swift */; };
+		50B78E6E1D0761E3006A95CB /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B78E6D1D0761E3006A95CB /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		504FFCD91D07507300C58A90 /* YoutubeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504FFCDD1D07507300C58A90 /* YoutubeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeDemoUITests.swift; sourceTree = "<group>"; };
 		504FFCDF1D07507300C58A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504FFCEB1D07528D00C58A90 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		504FFCED1D0752BA00C58A90 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		504FFCEF1D0752C400C58A90 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		50B78E6D1D0761E3006A95CB /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,12 @@
 				504FFCBD1D07507300C58A90 /* AppDelegate.swift */,
 				504FFCBF1D07507300C58A90 /* ViewController.swift */,
 				504FFCC11D07507300C58A90 /* Main.storyboard */,
+				50B78E6D1D0761E3006A95CB /* Common.swift */,
+				504FFCED1D0752BA00C58A90 /* FeedViewController.swift */,
+				504FFCEF1D0752C400C58A90 /* HamburgerViewController.swift */,
 				504FFCC41D07507300C58A90 /* Assets.xcassets */,
 				504FFCC61D07507300C58A90 /* LaunchScreen.storyboard */,
+				504FFCEB1D07528D00C58A90 /* MenuViewController.swift */,
 				504FFCC91D07507300C58A90 /* Info.plist */,
 			);
 			path = YoutubeDemo;
@@ -257,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				504FFCC01D07507300C58A90 /* ViewController.swift in Sources */,
+				504FFCEC1D07528D00C58A90 /* MenuViewController.swift in Sources */,
+				504FFCEE1D0752BA00C58A90 /* FeedViewController.swift in Sources */,
+				504FFCF01D0752C400C58A90 /* HamburgerViewController.swift in Sources */,
+				50B78E6E1D0761E3006A95CB /* Common.swift in Sources */,
 				504FFCBE1D07507300C58A90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +498,7 @@
 				504FFCE41D07507300C58A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504FFCE51D07507300C58A90 /* Build configuration list for PBXNativeTarget "YoutubeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				504FFCE71D07507300C58A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504FFCE81D07507300C58A90 /* Build configuration list for PBXNativeTarget "YoutubeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				504FFCEA1D07507300C58A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
